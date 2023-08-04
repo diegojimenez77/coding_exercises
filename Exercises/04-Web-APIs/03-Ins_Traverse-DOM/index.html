@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Traversal</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+        ul{
+            text-align: center;
+            list-style-type:none;
+            font-size: 40px;
+            border: 10px solid blue
+        }
+        p{
+            text-align: center;
+            font-size: 30px;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>La magia esta en la consola ✨✨!</h1>
+    <ul>
+        <li id="first-child-ul">Children[0]</li>
+        <li>Children[1]</li>
+        <li>Children[2]</li>
+    </ul>
+    <p>En este ejercicio vamos accesando a los hijos del body.</p>
+    <p>Estos hijos los vamos imprimiendo en la consola, abrela!</p>
+    <p style="color: red;">Tomamos el elemento first-child-ul y le damos color "red".</p>
+    <p style="color: green;">Tomamos document.body.children[1].children[1] y le damos color "green".</p>
+    <p style="color: orange;">Tomamos document.body.children[1].children[2] y le damos color "orange".</p>
+    <script src="script.js"></script>
+</body>
+</html>
