@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Font Checker</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Select serif or monospace</h1>
+        <form>
+            <select id="typeface">
+                <option value="serif">Serif</option>
+                <option value="monospace">Monospace</option>
+            </select>
+        <div style="margin-top: 50px;">
+            <textarea id="textarea" placeholder="Your input"></textarea>
+            <div>
+                <button id="clear">Clear</button>
+            </div>
+        </div>
+        </form>
+        <div class="elements">
+            <h1 id="h1"></h1>
+            <h2 id="h2"></h2>
+            <h3 id="h3"></h3>
+            <p id="p"></p>
+        </div>
+    </div>
+    <script src="./scritp.js"></script>
+</body>
+</html>
